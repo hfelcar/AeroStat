@@ -4,6 +4,15 @@
 
 ## Welcome
 
-Aviation incident and accident data is extensive, involving various contributing factors. This code aims to facilitate the understanding of this data by seeking correlations between such factors.
+Aviation incident and accident data is extensive and involves various variables. This code aims to provide tools to help evaluate the following question:
 
-Firstly, it is important to define how the database will be processed. From the presented samples, data is separated based on whether it affects flight safety or not, meaning a "classification" problem with categorical or qualitative output.
+>"Starting with a set of incidents and accidents, what internal and external variables could contribute to their occurrences?"
+
+Noting that internal variables refer to human factors, systems, and structures, while external variables encompass factors outside the aircraft, such as weather and runway conditions.
+
+Firstly, it is important to define the universe of the database, including any constraints, such as limiting the data to landing gear and brake events. The data is then categorized based on whether it affects flight safety, representing a "classification" problem with categorical or qualitative output.
+
+In the latest version of the code, it shows which variables affect the event but not the extent of their impact.
+
+
+
