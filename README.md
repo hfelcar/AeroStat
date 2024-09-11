@@ -14,5 +14,6 @@ Firstly, it is important to define the universe of the database, including any c
 
 In the latest version of the code, it shows which variables affect the event but not the extent of their impact.
 
+### Database
 
-
+The current database used in this code is sourced from the NTSB (National Transportation Safety Board): https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx
