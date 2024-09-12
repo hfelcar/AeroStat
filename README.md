@@ -4,9 +4,9 @@
 
 ## Welcome
 
-Aviation incident and accident data is extensive and involves various variables. This code aims to provide tools to help evaluate the following question:
+AeroStat aims to provide tools to help evaluate the following question:
 
->"Starting with a set of incidents and accidents, what internal and external variables could contribute to their occurrences?"
+>"Starting with a set of incidents and accidents in aviation, what internal and external variables could contribute to their occurrences?"
 
 Noting that internal variables refer to human factors, systems, and structures, while external variables encompass factors outside the aircraft, such as weather and runway conditions.
 
@@ -17,3 +17,11 @@ In the latest version of the code, it shows which variables affect the event but
 ### Database
 
 The current database used in this code is sourced from the NTSB (National Transportation Safety Board): https://www.ntsb.gov/safety/data/Pages/Data_Stats.aspx
+
+___
+
+### Version Log
+
+#### Initial Version
+
+The initial version of the code is limited to events that happened on ground involving brake system or landing gear failures.
