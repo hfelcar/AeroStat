@@ -24,4 +24,8 @@ ___
 
 #### Initial Version
 
-The initial version of the code is limited to events that happened on ground involving brake system or landing gear failures.
+The initial version of the code is limited to events that happened on ground involving brake system or landing gear failures, leading to runway excursions.
+
+The "eadmspub.pdf" file presents the variables listed in the NTSB database. Considering the variables that might have a direct involvement, the following lists will be the start point of variables under analysis:
+
+##### "aircraft" data sheet
