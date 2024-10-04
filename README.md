@@ -61,5 +61,7 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 ##### "Events" data sheet
 
 - ev_id: Event identifier
-- ev_time: Event time
-- ev_tmzn: Event time zone
+- light_cond: Light condition
+- apt_elev: Elevation
+- wind_dir_deg: Wind direction
+- wind_vel_kts: Wind velocity
