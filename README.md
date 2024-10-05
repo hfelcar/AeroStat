@@ -29,7 +29,6 @@ The initial version of the code is limited to events that happened on ground inv
 * Any runway excursion is considered a catastrophic event
 * The analysis is limited to aircraft category (var "acft_category = AIR")
 * No homebuilt aircrafts (var "homebuilt = N")
-* 
 
 The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB database. Considering the predictors that might have a direct involvement into the events, the following list will be the start point of variables under analysis:
 
