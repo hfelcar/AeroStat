@@ -65,3 +65,4 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 - apt_elev: Elevation
 - wind_dir_deg: Wind direction
 - wind_vel_kts: Wind velocity
+- sky_cond_nonceil: Sky Condition Non Ceiling
