@@ -24,13 +24,13 @@ ___
 
 #### Initial Version
 
-The initial version of the code is limited to events that happened on ground involving brake system or landing gear failures during landing, leading to runway excursions. Some assumptions are made, as follows:
+The initial version of the code is limited to events that happened on ground that lead to runway excursions. Mechanicals systems failures like brake system and landing gear systems are of concern, but not limited to them. Some assumptions are made, as follows:
 
 * Any runway excursion is considered a catastrophic event
 * The analysis is limited to aircraft category (var "acft_category = AIR")
 * No homebuilt aircrafts (var "homebuilt = N")
 
-The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB database. Considering the predictors that might have a direct involvement into the events, the following list will be the start point of variables under analysis:
+The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB database. Despite the final conclusions of the investigations, the analysis seeks to find the predictors that might have a direct involvement into the events, the following list will be the start point of variables under analysis:
 
 ##### "aircraft" data sheet
 
@@ -51,11 +51,6 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 - ev_id: Event identifier
 - phase_no = 550: Landing Runway excursion
 - eventsoe_no = 300: Landing Runway excursion
-
-##### "Finding" data sheet
-
-- ev_id: Event identifier
-- finding_description: Finding Description
 
 ##### "Events" data sheet
 
