@@ -51,7 +51,7 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 
 - ev_id: Event identifier
 - light_cond: Light condition
-- apt_elev: Elevation
+- apt_elev: Airport elevation
 - wind_dir_deg: Wind direction
 - wind_vel_kts: Wind velocity
 - sky_cond_nonceil: Sky Condition Non Ceiling
