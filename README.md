@@ -24,11 +24,12 @@ ___
 
 #### Initial Version
 
-The initial version of the code is limited to events that happened on ground that lead to runway excursions. Mechanicals systems failures like brake system and landing gear systems are of concern, but not limited to them. Some assumptions are made, as follows:
+The initial version of the code is limited to events that happened on ground that lead to runway excursions. Mechanicals systems failures like brake system and landing gear systems are of concern, but not limited to them. The following population are used, as follows:
 
-* Any runway excursion is considered a catastrophic event
-* The analysis is limited to aircraft category (var "acft_category = AIR")
-* No homebuilt aircrafts (var "homebuilt = N")
+* Any runway excursion is considered a catastrophic event (vars "phase_no = 550" and "eventsoe_no = 300" from "Events_Sequence" data sheet, refer to "landing runway excursion")
+* The analysis is limited to aircraft category (var "acft_category = AIR" from "aircraft" data sheet)
+* No homebuilt aircrafts (var "homebuilt = N" from "aircraft" data sheet)
+* Data from pilots in flight are evaluated (var "crew_category = PLT" from "Flight_Crew" data sheet), not including the first officer and others, if applicable
 
 The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB database. Despite the final conclusions of the investigations, the analysis seeks to find the predictors that might have a direct involvement into the events, the following list will be the start point of variables under analysis:
 
@@ -46,12 +47,6 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 - rwy_width: Runway width
 - acft_year: Aircraft year
 
-##### "Events_Sequence" data sheet
-
-- ev_id: Event identifier
-- phase_no = 550: Landing Runway excursion
-- eventsoe_no = 300: Landing Runway excursion
-
 ##### "Events" data sheet
 
 - ev_id: Event identifier
@@ -60,3 +55,8 @@ The "eadmspub.pdf" file presents the variables or predictors listed in the NTSB 
 - wind_dir_deg: Wind direction
 - wind_vel_kts: Wind velocity
 - sky_cond_nonceil: Sky Condition Non Ceiling
+
+#### "Flight_Crew" data sheet
+
+- ev_id: Event identifier
+- crew_age: Crew age
